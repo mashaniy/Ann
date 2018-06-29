@@ -20,7 +20,7 @@ bot.on("message", async message => {
 	      message.channel.send("apa?");
     }
 	
-    if (cmd === `${prefix}Anninfo) {
+    if (cmd === `${prefix}Anninfo`) {
 	let bicon = bot.user.displayAvatarURL; // untuk menampilkan avatar dari bot kalian
 	let botembed = new Discord.RichEmbed()
 		.setAuthor("Informasi Bot")
