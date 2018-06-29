@@ -27,8 +27,8 @@ bot.on("message", async message => {
 		.setColor("RANDOM") // kalian juga bisa menggunakan kode HEX, cari di google
 		.setThumbnail(bicon) // thumbnail dari avatar bot kalian tadi
 		.addField("Nama Bot", bot.user.username)
-		.addField("Dibuat", bot.user.createdAt);
-		.setFooter("©haniy)
+		.addField("Dibuat", bot.user.createdAt)
+		.setFooter("©haniy")
         	.setTimestamp()
 
 		message.channel.send(botembed); // untuk mengirim embed yang sudah dibuat diatas..
